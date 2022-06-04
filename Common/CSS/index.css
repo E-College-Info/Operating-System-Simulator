@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url("../IMAGES/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #15D2E7;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+li, a, .dropbtn{
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav_links li a:hover{
+    color: white;
+}
+
+.nav_links a:hover, .dropbtn:hover{
+    color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    border: none;
+    background: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #15D2E7;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+    display: block;
+    color: black;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: auto;
+    width: auto;
+    font-weight: bolder;
+}
+
+.sub-information{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-weight: bolder;
+    margin: 1rem 1rem;
+    text-align: center;
+    color: black;
+}
+
+.sub-information h1{
+    font-size: 3.5rem;
+}
+
+.sub-information li, a{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+    font-family: 'Arvo';
+}
+
+.sub-information a:hover{
+    color: #15D2E7;
+    font-size: 1.5rem;
+}
